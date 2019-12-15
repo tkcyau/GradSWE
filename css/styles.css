@@ -2,18 +2,24 @@ body {
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
-
+/* navbar */
 .navbar {
   background-color: #5b5378;
   font-family: "Montserrat", sans-serif;
 }
 
+.nav-link {
+  color: white;
+}
+
 /* Cards */
 #cards {
-  padding: 50px 200px;
+  padding: 100px 50px;
   font-family: "Montserrat", sans-serif;
+  background-color: whitesmoke;
 }
 #cards h2 {
+  font-size: 2.5rem;
   font-weight: 900;
 }
 
@@ -21,6 +27,13 @@ body {
   text-align: center;
 }
 
+.cards-column {
+  padding: 3% 2%;
+}
+
+.card-title {
+  font-weight: 900;
+}
 /* Footer
  */
 #footer {
@@ -28,6 +41,7 @@ body {
   padding: 20px 10px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 #footer h4 {
@@ -36,5 +50,5 @@ body {
 
 #footer i {
   margin: 20px 10px;
-  color: gray;
+  color: white;
 }
